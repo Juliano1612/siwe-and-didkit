@@ -20,7 +20,7 @@ $ yarn -v
 
 ```bash
 $ yarn install
-$ npm dev
+$ yarn dev
 ```
 The server should start at <http://localhost:3000>.
 
