@@ -1,0 +1,20 @@
+/* Tailwind css config */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Typography */
+@import "_typography.css";
+
+body {
+  margin: 0;
+  font-family: "Inter";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: black;
+  color: white;
+}
+
+.card__container {
+  background: linear-gradient(90deg, transparent, transparent), linear-gradient(209.87deg, #9363f9 30.11%, #e55a54 97.41%);
+}
